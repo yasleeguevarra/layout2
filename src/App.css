@@ -1,0 +1,138 @@
+.container {
+  border: 6px solid green;
+  background-color: #c7f0c7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.header {
+  border: 6px solid blue;
+  background-color: #b3e0ff;
+  padding: 5px;
+}
+
+.header-content {
+  background-color: #b3e0ff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box-left, .box-right {
+  background-color: #ffd8b3;
+  border: 6px solid #f78072;
+  height: 100px;
+  flex: 1 1 290px;
+}
+
+.small-box-container {
+  background-color: #ffd8b3;
+  border: 6px solid #f78072;
+  flex: 2 1 200px;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  padding: 5px;
+}
+
+.small-box1 {
+  height: 80px;
+  width: 40px;
+  background-color: #fac0cb;
+  border: 6px solid #f40005;
+  flex: 1;
+}
+
+.small-box2 {
+  height: 80px;
+  width: 40px;
+  background-color: #fac0cb;
+  border: 6px solid #f40005;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.large-box {
+  background-color: #ffb3b3;
+  border: 6px solid #a52b2a;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+.medium-box1 {
+  background-color: #ffb3b3;
+  border: 6px solid #a52b2a;
+  flex-grow: 1;
+}
+
+.medium-box2 {
+  background-color: #ffb3b3;
+  border: 6px solid #a52b2a;
+  flex-grow: 1;
+}
+
+.footer {
+  border: 6px solid blue;
+  background-color: #b3c6ff;
+  padding: 5px;
+}
+
+.footer-content {
+  background-color: #b3c6ff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.small-box3 {
+  background-color: #e6e6ff;
+  border: 6px solid #6a5acd;
+  height: 80px;
+  flex: 1 1 300px;
+}
+
+.small-box4 {
+  background-color: #ffd8b3;
+  border: 6px solid #f78072;
+  height: 80px;
+  flex: 1 1 120px;
+}
+
+.small-box5 {
+  background-color: #ffd8b3;
+  border: 6px solid #f78072;
+  height: 80px;
+  flex: 1 1 120px;
+}
+
+.small-box6 {
+  background-color: #e6e6ff;
+  border: 6px solid #6a5acd;
+  height: 80px;
+  flex: 1 1 300px;
+}
